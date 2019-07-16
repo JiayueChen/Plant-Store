@@ -1,0 +1,159 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
+    font-family: 'Libre Baskerville', serif;
+    line-height: 1.5em;
+}
+
+body,
+li {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+nav a.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+p {
+    line-height: 1.5em;
+    font-size: 1rem;
+}
+
+h1.display-4 {
+    font-size: 3.15rem;
+}
+
+p.lead,
+.jumbotron a.btn {
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: 1.33rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+
+/*styling main nav*/
+nav {
+    background-color: #3c4f44;
+}
+
+nav a.nav-link:hover,
+nav a.nav-link:active,
+nav .dropdown-menu .dropdown-item:hover,
+nav .dropdown-menu .dropdown-item:active {
+    background-color: #e6dee6 !important;
+    border-radius: 5px;
+    color: #000 !important;
+}
+
+/*styling dropdown list-item*/
+.dropdown-menu,
+.dropdown-menu:visited,
+.dropdown-menu:link,
+nav .dropdown-menu .dropdown-item {
+    background-color: #3c4f44;
+    color: #fff !important;
+}
+
+
+/* banner */
+.jumbotron {
+    background-image: url(../img/green.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.jumbotron a.btn {
+    background-color: #3c4f44;
+    border: 2px solid #3c4f44;
+    color: #fff;
+}
+
+.jumbotron a.btn:hover,
+.jumbotron a.btn:active {
+    background-color: #e6dee6;
+    border: 2px solid #3c4f44;
+    color: #000;
+}
+
+.figure {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+}
+
+.footer {
+    background-color: #3c4f44;
+    color: #fff;
+    padding: 2rem;
+}
+
+.footer a,
+.footer a:link,
+.footer a:visited {
+    color: #fff;
+    text-decoration: none
+}
+
+.footer a:hover,
+.footer a:active {
+    background-color: #e6dee6;
+    color: #000;
+}
+
+@media only screen and (max-width: 36rem) {
+    p {
+        font-size: 0.75rem;
+    }
+
+    h1.display-4 {
+        font-size: 2.36rem;
+    }
+
+    p.lead,
+    .jumbotron a.btn {
+        font-size: 1.1rem;
+    }
+
+    h4 {
+        font-size: 1.33rem;
+    }
+
+    h5 {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (min-width: 48rem) {
+    p {
+        font-size: 1rem;
+    }
+
+    footer ul {
+        padding-left: 0;
+    }
+
+    footer li {
+        display: inline;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        border-left: 1px solid #fff;
+    }
+
+    footer li:first-child {
+        border-left: 0;
+        padding-left: 0;
+
+    }
+
+}
